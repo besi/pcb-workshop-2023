@@ -752,6 +752,10 @@
     (uuid 9db402f5-eb79-4dc0-acf4-8a739bf36819)
   )
 
+  (no_connect (at 133.096 79.502) (uuid 22a74f5f-8dcc-4fbe-80e8-26c9ae7900a1))
+  (no_connect (at 112.776 82.042) (uuid b22ed145-bffb-41b3-93bd-a7fd6f3173c5))
+  (no_connect (at 112.776 79.502) (uuid b22ed145-bffb-41b3-93bd-a7fd6f3173c5))
+
   (wire (pts (xy 75.692 49.276) (xy 96.012 49.276))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 44aafed9-a329-43f2-bab1-7af00fbe6dbd)
@@ -1199,12 +1203,12 @@
     (pin "1" (uuid 5c0b28ba-67a5-41d4-8c16-8be6f620fb1d))
   )
 
-  (symbol (lib_id "Switch:SW_SPDT") (at 108.712 34.036 180) (unit 1)
+  (symbol (lib_id "Switch:SW_SPDT") (at 108.712 34.036 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c5b61907-c493-4c72-84ee-b1c385e85474)
-    (property "Reference" "SW1" (id 0) (at 108.712 25.4 0))
-    (property "Value" "POWER SELECT" (id 1) (at 108.458 27.432 0))
-    (property "Footprint" "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" (id 2) (at 108.712 34.036 0)
+    (property "Reference" "SW1" (id 0) (at 108.712 42.672 0))
+    (property "Value" "POWER SELECT" (id 1) (at 112.776 27.94 0))
+    (property "Footprint" "Button_Switch_THT:SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6" (id 2) (at 108.712 34.036 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 108.712 34.036 0)
@@ -1394,7 +1398,7 @@
       (reference "J4") (unit 1) (value "Connections") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
     )
     (path "/c5b61907-c493-4c72-84ee-b1c385e85474"
-      (reference "SW1") (unit 1) (value "POWER SELECT") (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight")
+      (reference "SW1") (unit 1) (value "POWER SELECT") (footprint "Button_Switch_THT:SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6")
     )
     (path "/3f8d9778-18b4-4fc1-97b0-91bee033684b"
       (reference "U1") (unit 1) (value "TP4056") (footprint "TP4056:TP4056")
